@@ -5,16 +5,43 @@
     <title>Tailwind</title>
   </head>
   <body>
-    <!-- flex-none -->
-    <!-- flex-initial -->
-    <!-- flex-auto -->
-    <!-- flex-1 -->
-    <!-- group -->
-    <!-- group-hover -->
-    <a href="">Click Here</a>
-    <a href=""
-      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
-      porro.</a
-    >
+    <nav class="bg-white shadow-lg">
+      <div class="max-w-6xl m-auto px-4">
+        <div class="flex justify-between">
+          <div class="flex space-x-7">
+            <div>
+              <a class="flex items-center py-3 px-2" href="#">
+                <img class="h-8 w-8 mr-2" src="images/house.png" alt="" />
+                <span class="font-semibold text-gray-500 text-lg"
+                  >Prime Properties</span
+                >
+              </a>
+            </div>
+            <div class="hidden md:flex space-x-2">
+              <a
+                class="py-4 py-2 border-b-4 border-green-500 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+                href=""
+                >Home</a
+              >
+              <a
+                class="py-4 py-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+                href=""
+                >Service</a
+              >
+              <a
+                class="py-4 py-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+                href=""
+                >About</a
+              >
+              <a
+                class="py-4 py-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+                href=""
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
